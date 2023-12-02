@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Hacer ejercitación clase 6",
+        "description": "Desarrollar el registro de una página web, en el registro tener los siguientes campos:Nombre, Apellido, Email, Teléfono, Password,Confirmar password",
+        "completed": false
+    },
+    {
+        "id": 2,
+        "name": "Hacer ejercitación clase 7",
+        "description": "Desarrollar el maquetado de una pagina de detalle de un producto para un sitio de ecommerce, se deberán visualizar los siguientes datos: Nombre, Descripción, Precio, SKU, Cantidad disponible. Realizar un maquetado con los datos, desarrollado con componentes. Agregar al mismo un botón \"Comprar\".Al hacer clic en dicho botón se deberá mostrar debajo del mismo un mensaje al usuario que diga:\"Gracias por su compra\".Resolverlo utilizando manejo de estados.",
+        "completed": false
+    },
+    {
+        "id": 3,
+        "name": "Hacer Trabajo integrador",
+        "description": "Crear una aplicación web utilizando React que permita gestionar una lista de tareas. La aplicación deberá hacer uso de componentes funcionales, el hook useState para el manejo del estado, el hook useEffect para realizar efectos secundarios, y eventos para interactuar con el usuario.",
+        "completed": true
+    },
+    {
+        "id": 4,
+        "name": "Deployar Trabajo Integrador en Vercel",
+        "description": "Subir el proyecto a git y deployarlo en vercel",
+        "completed": false
+    }
+]
