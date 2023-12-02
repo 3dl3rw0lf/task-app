@@ -21,6 +21,6 @@
         "id": 4,
         "name": "Deployar Trabajo Integrador en Vercel",
         "description": "Subir el proyecto a git y deployarlo en vercel",
-        "completed": false
+        "completed": true
     }
 ]
