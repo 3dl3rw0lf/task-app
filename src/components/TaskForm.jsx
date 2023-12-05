@@ -26,13 +26,13 @@ export default function TaskForm({ addTask }) {
 	return (
 		<>
 			<form onSubmit={submitTask}>
-				<div className="input-group mb-5 px-3 shadow rounded flex-column">
+				<div className="input-group mb-5 px-3 shadow rounded">
 					<span className="input-group-text">
 						Qué tienes que hacer?
 					</span>
 					<input
 						aria-label="Task"
-						className="form-control mb-2 w-100"
+						className="form-control"
 						onChange={handleUserTaskName}
 						placeholder="Ingrese que tienes que hacer"
 						type="text"
@@ -40,7 +40,7 @@ export default function TaskForm({ addTask }) {
 					/>
 					<textarea
 						aria-label="Description"
-						className="form-control mb-2 w-100"
+						className="form-control"
 						onChange={handleUserTaskDescription}
 						placeholder="Ingresa la descripción de lo que tienes que hacer"
 						rows="1"
