@@ -32,7 +32,7 @@ export default function TaskForm({ addTask }) {
 					</span>
 					<input
 						aria-label="Task"
-						className="form-control mb-2"
+						className="form-control mb-2 w-100"
 						onChange={handleUserTaskName}
 						placeholder="Ingrese que tienes que hacer"
 						type="text"
@@ -40,7 +40,7 @@ export default function TaskForm({ addTask }) {
 					/>
 					<textarea
 						aria-label="Description"
-						className="form-control mb-2"
+						className="form-control mb-2 w-100"
 						onChange={handleUserTaskDescription}
 						placeholder="Ingresa la descripción de lo que tienes que hacer"
 						rows="1"
